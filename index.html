@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pizzorinor - The best pizza in town!">
+    <title>Pizzorinor Restaurant</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Pizzorinor Logo"> <!-- Add your logo image here -->
+            <h1>Pizzorinor</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Presentation Section -->
+    <section id="home">
+        <h2>Welcome to Pizzorinor!</h2>
+        <p>We serve the finest pizzas made with love and the freshest ingredients. Come enjoy a delicious meal with us!</p>
+        <img src="resturant.jpg" alt="Pizzorinor Restaurant"> <!-- Add an image for the shop -->
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2>About Pizzorinor</h2>
+        <p>Pizzorinor has been serving top-quality pizzas for over 20 years. Our mission is to bring joy to every bite!</p>
+        <img src="staff.jpg" alt="Pizzorinor Staff"> <!-- Add an image of the staff -->
+    </section>
+
+    <!-- Pizza Recipes Section -->
+    <section id="menu">
+        <h2>Our Krabby Pizzas</h2>
+        <div class="recipe">
+            <h3>Krabby Margherita</h3>
+            <p>Classic tomato, mozzarella, and fresh basil leaves.</p>
+        </div>
+        <div class="recipe">
+            <h3>Krabby Pepperoni</h3>
+            <p>Tomato base, mozzarella, pepperoni, and a touch of oregano.</p>
+        </div>
+        <div class="recipe">
+            <h3>Krabby Veggie Supreme</h3>
+            <p>A mix of fresh vegetables with tomato sauce and mozzarella cheese.</p>
+        </div>
+        <div class="recipe">
+            <h3>Krabby Seafood Delight</h3>
+            <p>Shrimp, squid, and mussels, topped with mozzarella on a creamy base.</p>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Pizzorinor Restaurant</p>
+        <p>Follow us: 
+            <a href="https://facebook.com/pizzorinor">Facebook</a> | 
+            <a href="https://instagram.com/pizzorinor">Instagram</a> | 
+            <a href="https://twitter.com/pizzorinor">Twitter</a>
+        </p>
+        <p>Contact us: 123-456-7890</p>
+    </footer>
+
+</body>
+</html>
